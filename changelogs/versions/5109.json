@@ -1,0 +1,12 @@
+{ 
+    "changelogs": [ 
+        {
+            "text": "New Addon System",
+            "type": 0
+        },
+        {
+            "text": "New UI & Design",
+            "type": 0
+        }
+    ]
+}
