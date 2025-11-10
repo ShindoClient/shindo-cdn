@@ -8,9 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@vercel/analytics':
+        specifier: ^1.5.0
+        version: 1.5.0(vue-router@4.6.3(vue@3.5.24))(vue@3.5.24)
       nuxt:
         specifier: 3.13.2
-        version: 3.13.2(@parcel/watcher@2.5.1)(db0@0.3.4)(ioredis@5.8.2)(magicast@0.3.5)(rollup@4.53.2)(terser@5.44.1)(vite@5.4.21(terser@5.44.1))
+        version: 3.13.2(@parcel/watcher@2.5.1)(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.2)(terser@5.44.1)(vite@5.4.21(terser@5.44.1))
 
 packages:
 
@@ -1040,6 +1043,32 @@ packages:
     resolution: {integrity: sha512-sqQaLbwqY9TvLEGeq8Fd7+F2TIuV3nZ5ihVISHjWpAM3y7DwNWRU7NmT9+yYT+2/jw1Vjwdkv5/HvDnvCLrgmg==}
     peerDependencies:
       vue: '>=2.7 || >=3'
+
+  '@vercel/analytics@1.5.0':
+    resolution: {integrity: sha512-MYsBzfPki4gthY5HnYN7jgInhAZ7Ac1cYDoRWFomwGHWEX7odTEzbtg9kf/QSo7XEsEAqlQugA6gJ2WS2DEa3g==}
+    peerDependencies:
+      '@remix-run/react': ^2
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   '@vercel/nft@0.30.3':
     resolution: {integrity: sha512-UEq+eF0ocEf9WQCV1gktxKhha36KDs7jln5qii6UpPf5clMqDc0p3E7d9l2Smx0i9Pm1qpq4S4lLfNl97bbv6w==}
@@ -3827,10 +3856,10 @@ snapshots:
       - utf-8-validate
       - vue
 
-  '@nuxt/kit@3.13.2(magicast@0.3.5)(rollup@4.53.2)':
+  '@nuxt/kit@3.13.2(magicast@0.5.1)(rollup@4.53.2)':
     dependencies:
       '@nuxt/schema': 3.13.2(rollup@4.53.2)
-      c12: 1.11.2(magicast@0.3.5)
+      c12: 1.11.2(magicast@0.5.1)
       consola: 3.4.2
       defu: 6.1.4
       destr: 2.0.5
@@ -3880,6 +3909,32 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
+  '@nuxt/kit@3.20.1(magicast@0.5.1)':
+    dependencies:
+      c12: 3.3.1(magicast@0.5.1)
+      consola: 3.4.2
+      defu: 6.1.4
+      destr: 2.0.5
+      errx: 0.1.0
+      exsolve: 1.0.8
+      ignore: 7.0.5
+      jiti: 2.6.1
+      klona: 2.0.6
+      knitwork: 1.2.0
+      mlly: 1.8.0
+      ohash: 2.0.11
+      pathe: 2.0.3
+      pkg-types: 2.3.0
+      rc9: 2.1.2
+      scule: 1.3.0
+      semver: 7.7.3
+      tinyglobby: 0.2.15
+      ufo: 1.6.1
+      unctx: 2.4.1
+      untyped: 2.0.0
+    transitivePeerDependencies:
+      - magicast
+
   '@nuxt/schema@3.13.2(rollup@4.53.2)':
     dependencies:
       compatx: 0.1.8
@@ -3906,9 +3961,9 @@ snapshots:
       pkg-types: 2.3.0
       std-env: 3.10.0
 
-  '@nuxt/telemetry@2.6.6(magicast@0.3.5)':
+  '@nuxt/telemetry@2.6.6(magicast@0.5.1)':
     dependencies:
-      '@nuxt/kit': 3.20.1(magicast@0.3.5)
+      '@nuxt/kit': 3.20.1(magicast@0.5.1)
       citty: 0.1.6
       consola: 3.4.2
       destr: 2.0.5
@@ -3923,9 +3978,9 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/vite-builder@3.13.2(magicast@0.3.5)(rollup@4.53.2)(terser@5.44.1)(vue@3.5.24)':
+  '@nuxt/vite-builder@3.13.2(magicast@0.5.1)(rollup@4.53.2)(terser@5.44.1)(vue@3.5.24)':
     dependencies:
-      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.53.2)
+      '@nuxt/kit': 3.13.2(magicast@0.5.1)(rollup@4.53.2)
       '@rollup/plugin-replace': 5.0.7(rollup@4.53.2)
       '@vitejs/plugin-vue': 5.2.4(vite@5.4.21(terser@5.44.1))(vue@3.5.24)
       '@vitejs/plugin-vue-jsx': 4.2.0(vite@5.4.21(terser@5.44.1))(vue@3.5.24)
@@ -4246,6 +4301,11 @@ snapshots:
       unhead: 1.11.20
       vue: 3.5.24
 
+  '@vercel/analytics@1.5.0(vue-router@4.6.3(vue@3.5.24))(vue@3.5.24)':
+    optionalDependencies:
+      vue: 3.5.24
+      vue-router: 4.6.3(vue@3.5.24)
+
   '@vercel/nft@0.30.3(rollup@4.53.2)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.0
@@ -4539,7 +4599,7 @@ snapshots:
     dependencies:
       run-applescript: 7.1.0
 
-  c12@1.11.2(magicast@0.3.5):
+  c12@1.11.2(magicast@0.5.1):
     dependencies:
       chokidar: 3.6.0
       confbox: 0.1.8
@@ -4554,7 +4614,7 @@ snapshots:
       pkg-types: 1.3.1
       rc9: 2.1.2
     optionalDependencies:
-      magicast: 0.3.5
+      magicast: 0.5.1
 
   c12@3.3.1(magicast@0.3.5):
     dependencies:
@@ -5627,21 +5687,21 @@ snapshots:
 
   nuxi@3.30.0: {}
 
-  nuxt@3.13.2(@parcel/watcher@2.5.1)(db0@0.3.4)(ioredis@5.8.2)(magicast@0.3.5)(rollup@4.53.2)(terser@5.44.1)(vite@5.4.21(terser@5.44.1)):
+  nuxt@3.13.2(@parcel/watcher@2.5.1)(db0@0.3.4)(ioredis@5.8.2)(magicast@0.5.1)(rollup@4.53.2)(terser@5.44.1)(vite@5.4.21(terser@5.44.1)):
     dependencies:
       '@nuxt/devalue': 2.0.2
       '@nuxt/devtools': 1.7.0(rollup@4.53.2)(vite@5.4.21(terser@5.44.1))(vue@3.5.24)
-      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.53.2)
+      '@nuxt/kit': 3.13.2(magicast@0.5.1)(rollup@4.53.2)
       '@nuxt/schema': 3.13.2(rollup@4.53.2)
-      '@nuxt/telemetry': 2.6.6(magicast@0.3.5)
-      '@nuxt/vite-builder': 3.13.2(magicast@0.3.5)(rollup@4.53.2)(terser@5.44.1)(vue@3.5.24)
+      '@nuxt/telemetry': 2.6.6(magicast@0.5.1)
+      '@nuxt/vite-builder': 3.13.2(magicast@0.5.1)(rollup@4.53.2)(terser@5.44.1)(vue@3.5.24)
       '@unhead/dom': 1.11.20
       '@unhead/shared': 1.11.20
       '@unhead/ssr': 1.11.20
       '@unhead/vue': 1.11.20(vue@3.5.24)
       '@vue/shared': 3.5.24
       acorn: 8.12.1
-      c12: 1.11.2(magicast@0.3.5)
+      c12: 1.11.2(magicast@0.5.1)
       chokidar: 3.6.0
       compatx: 0.1.8
       consola: 3.4.2

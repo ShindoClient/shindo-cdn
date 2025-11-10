@@ -1,9 +1,9 @@
-<script setup>
+<script setup lang="ts">
 import "~/assets/css/main.css";
+import { Analytics } from '@vercel/analytics/nuxt';
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Analytics />
+  <NuxtPage />
 </template>
