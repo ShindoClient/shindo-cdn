@@ -1,0 +1,23 @@
+{
+    "name":  "shindo-cdn",
+    "version":  "1.0.0",
+    "description":  "Landing e CDN do Shindo Client construída com Nuxt 3",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "nuxt dev",
+                    "build":  "nuxt build",
+                    "generate":  "nuxt generate",
+                    "preview":  "nuxt preview"
+                },
+    "dependencies":  {
+                         "nuxt":  "3.13.2"
+                     },
+    "packageManager":  "pnpm@10.18.3",
+    "pnpm":  {
+                 "allowedBuiltDependencies":  [
+                                                  "esbuild",
+                                                  "@parcel/watcher"
+                                              ]
+             }
+}

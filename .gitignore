@@ -6,6 +6,9 @@
 /dataSources/
 /dataSources.local.xml
 /node_modules/
+/.nuxt
+/.output
 /.next
 /.idea
+.vercel
 .env
