@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       title: "Shindo Client CDN",
       htmlAttrs: { lang: "pt-BR" },
       meta: [
-        { name: "description", content: "Infraestrutura CDN oficial para distribuição do Shindo Client." },
+        { name: "description", content: "Infraestrutura CDN oficial para distribuiï¿½ï¿½o do Shindo Client." },
         { name: "robots", content: "noindex, nofollow" },
         { name: "theme-color", content: "#8539ff" }
       ],
@@ -17,5 +17,5 @@ export default defineNuxtConfig({
   routeRules: {
     "/**": { prerender: true }
   },
-  compatibilityDate: "2024-10-11"
+  compatibilityDate: "2025-11-10"
 });
