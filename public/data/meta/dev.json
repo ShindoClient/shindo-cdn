@@ -1,0 +1,27 @@
+{
+  "headline": "Prototyping cross-platform modules and backend services to keep ShindoClient future-proof.",
+  "lastUpdated": "2025-11-18T00:00:00.000Z",
+  "features": [
+    {
+      "id": "microsoft-login",
+      "title": "Microsoft Auth Sustem",
+      "description": "Secure and automatic Microsoft authentication for the Shindo Client.",
+      "progress": 25,
+      "status": "In development"
+    },
+    {
+      "id": "profile-sync",
+      "title": "Profile Share & Sync",
+      "description": "Share your profiles with your friends and also add community made profiles.",
+      "progress": 0,
+      "status": "Not Started"
+    },
+    {
+      "id": "community-made-addons",
+      "title": "Community Made Addons",
+      "description": "Let you make your own addons for Shindo Cliend and/or add community made addons.",
+      "progress": 0,
+      "status": "Not Started"
+    }
+  ]
+}
