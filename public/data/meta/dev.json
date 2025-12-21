@@ -10,9 +10,9 @@
       "status": "Last Stage"
     },
     {
-      "id": "style-system",
-      "title": "Style System",
-      "description": "Let you change the style of the Shindo Client for a more personalized experience.",
+      "id": "layout-system",
+      "title": "Layout System",
+      "description": "Let you change the layout of the Shindo Client for a more personalized experience.",
       "progress": 40,
       "status": "In Progress"
     },
@@ -38,9 +38,9 @@
       "status": "Not Started"
     },
     {
-      "id": "comunity-made-styles-and-themes",
-      "title": "Community Made Styles & Themes",
-      "description": "Let you make your own styles and themes for Shindo Client and/or add community made styles and themes.",
+      "id": "community-made-layouts-and-themes",
+      "title": "Community Made Layouts & Themes",
+      "description": "Let you make your own layouts and themes for Shindo Client and/or add community made layouts and themes.",
       "progress": 0,
       "status": "Not Started"
     }
