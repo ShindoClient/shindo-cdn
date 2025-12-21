@@ -1,25 +1,46 @@
 {
   "headline": "Prototyping cross-platform modules and backend services to keep ShindoClient future-proof.",
-  "lastUpdated": "2025-11-18T00:00:00.000Z",
+  "lastUpdated": "2025-12-21T00:00:00.000Z",
   "features": [
     {
       "id": "microsoft-login",
       "title": "Microsoft Auth System",
       "description": "Secure and automatic Microsoft authentication for the Shindo Client.",
-      "progress": 25,
-      "status": "In development"
+      "progress": 90,
+      "status": "Last Stage"
+    },
+    {
+      "id": "style-system",
+      "title": "Style System",
+      "description": "Let you change the style of the Shindo Client for a more personalized experience.",
+      "progress": 40,
+      "status": "In Progress"
     },
     {
       "id": "profile-sync",
       "title": "Profile Share & Sync",
       "description": "Share your profiles with your friends and also add community made profiles.",
-      "progress": 0,
-      "status": "Not Started"
+      "progress": 20,
+      "status": "First Stage"
+    },
+    {
+      "id": "mod-icons",
+      "title": "Mod Icons",
+      "description": "Mod Icons for Shindo Client UIs and more.",
+      "progress": 5,
+      "status": "Initial Research"
     },
     {
       "id": "community-made-addons",
       "title": "Community Made Addons",
-      "description": "Let you make your own addons for Shindo Cliend and/or add community made addons.",
+      "description": "Let you make your own addons for Shindo Client and/or add community made addons.",
+      "progress": 0,
+      "status": "Not Started"
+    },
+    {
+      "id": "comunity-made-styles-and-themes",
+      "title": "Community Made Styles & Themes",
+      "description": "Let you make your own styles and themes for Shindo Client and/or add community made styles and themes.",
       "progress": 0,
       "status": "Not Started"
     }

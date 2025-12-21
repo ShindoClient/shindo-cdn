@@ -1,0 +1,28 @@
+{ 
+    "changelogs": [ 
+        {
+            "text": "New UI & Design",
+            "type": 0
+        },
+        {
+            "text": "New Layout System",
+            "type": 0
+        },
+        {
+            "text": "New Network System",
+            "type": 0
+        },
+        {
+            "text": "Some Bug Fixes & Code Improvements",
+            "type": 1
+        },
+        {
+            "text": "Profile System Optimizations",
+            "type": 1
+        },
+        {
+            "text": "In Game Authentication System)",
+            "type": 2
+        }
+    ]
+}
