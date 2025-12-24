@@ -13,7 +13,14 @@
       "id": "layout-system",
       "title": "Layout System",
       "description": "Let you change the layout of the Shindo Client for a more personalized experience.",
-      "progress": 40,
+      "progress": 50,
+      "status": "In Progress"
+    },
+        {
+      "id": "mod-icons",
+      "title": "Mod Icons",
+      "description": "Mod Icons for Shindo Client UIs and more.",
+      "progress": 35,
       "status": "In Progress"
     },
     {
@@ -24,18 +31,18 @@
       "status": "First Stage"
     },
     {
-      "id": "mod-icons",
-      "title": "Mod Icons",
-      "description": "Mod Icons for Shindo Client UIs and more.",
-      "progress": 5,
-      "status": "Initial Research"
+      "id": "translations",
+      "title": "Translations",
+      "description": "Let you change the language of the Shindo Client.",
+      "progress": 15,
+      "status": "First Stage"
     },
     {
       "id": "community-made-addons",
       "title": "Community Made Addons",
       "description": "Let you make your own addons for Shindo Client and/or add community made addons.",
-      "progress": 0,
-      "status": "Not Started"
+      "progress": 3,
+      "status": "First Stage"
     },
     {
       "id": "community-made-layouts-and-themes",
