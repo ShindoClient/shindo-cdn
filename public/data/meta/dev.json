@@ -6,43 +6,43 @@
       "id": "microsoft-login",
       "title": "Microsoft Auth System",
       "description": "Secure and automatic Microsoft authentication for the Shindo Client.",
-      "progress": 90,
+      "progress": 95,
       "status": "Last Stage"
     },
     {
       "id": "layout-system",
       "title": "Layout System",
       "description": "Let you change the layout of the Shindo Client for a more personalized experience.",
-      "progress": 50,
-      "status": "In Progress"
+      "progress": 75,
+      "status": "On Hold"
     },
         {
       "id": "mod-icons",
       "title": "Mod Icons",
       "description": "Mod Icons for Shindo Client UIs and more.",
-      "progress": 35,
-      "status": "In Progress"
+      "progress": 50,
+      "status": "On Hold"
     },
     {
       "id": "profile-sync",
       "title": "Profile Share & Sync",
       "description": "Share your profiles with your friends and also add community made profiles.",
-      "progress": 20,
-      "status": "First Stage"
+      "progress": 80,
+      "status": "Last Stage"
     },
     {
       "id": "translations",
       "title": "Translations",
       "description": "Let you change the language of the Shindo Client.",
-      "progress": 15,
-      "status": "First Stage"
+      "progress": 60,
+      "status": "Mid Stage"
     },
     {
       "id": "community-made-addons",
       "title": "Community Made Addons",
       "description": "Let you make your own addons for Shindo Client and/or add community made addons.",
       "progress": 3,
-      "status": "First Stage"
+      "status": "In Research"
     },
     {
       "id": "community-made-layouts-and-themes",
